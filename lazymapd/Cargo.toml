@@ -1,0 +1,9 @@
+
+[package]
+name = "lazymapd"
+version = "1.0.0"
+edition = "2021"
+
+[dependencies]
+rayon = "1.7.0"
+clap = "2.34.0"
