@@ -1,0 +1,22 @@
+{
+  "tool": "readmenator",
+  "generated_at": "2026-09-16T04:34:30Z",
+  "project_root": "/tmp/readmenator_Lazymapd_y60_6_sr",
+  "files": 2,
+  "symbols": 17,
+  "imports": 8,
+  "resolved_imports": 0,
+  "security_findings": 0,
+  "languages": {
+    "sh": 1,
+    "rs": 1
+  },
+  "entrypoints": [],
+  "start_here": "INDEX.md",
+  "workflow": [
+    "grep -n '<keyword>' INDEX.md",
+    "cat KB_<subsystem>.md",
+    "grep -n '<file>' ARCHITECTURE.md SYMBOLS.md"
+  ],
+  "regenerate": "readmenator . --rebuild"
+}
